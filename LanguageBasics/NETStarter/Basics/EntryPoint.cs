@@ -30,9 +30,12 @@ var a = rec2.GetArea();
 var square1 = new Square(34.5);
 var sa = square1.GetArea();
 
+var circle1 = new Circle(34.5);
+var ca = circle1.GetArea();
 
-
-
+var sphere1 = new Sphere(34.5);
+var ssa = sphere1.GetArea();
+sphere1.PrintSphereInfo(34.5);
 
 // Inheritance/Polymorphism -- OOP
 
