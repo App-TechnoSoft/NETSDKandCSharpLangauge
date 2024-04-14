@@ -1,3 +1,6 @@
+using System;
+
+namespace Inheritance;
 class Sphere: Circle
 {
     public Sphere(double radius) 

@@ -1,3 +1,6 @@
+using System;
+
+namespace Inheritance;
 class Circle: IShape2D
 {
     public Circle(double r)

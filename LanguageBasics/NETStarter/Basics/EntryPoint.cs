@@ -21,6 +21,9 @@
 // Print details in concole
 
 
+using System;
+using Inheritance;
+
 var rec1 = new Rectangle(5.7, 3.4);
 var p = rec1.GetPerimeter();
 
@@ -36,6 +39,11 @@ var ca = circle1.GetArea();
 var sphere1 = new Sphere(34.5);
 var ssa = sphere1.GetArea();
 sphere1.PrintSphereInfo(34.5);
+
+var fileio = new FileIO();
+fileio.CreateFileWithInFolder();
+
+Console.WriteLine("sdfsadf sadfsaf asf");
 
 // Inheritance/Polymorphism -- OOP
 

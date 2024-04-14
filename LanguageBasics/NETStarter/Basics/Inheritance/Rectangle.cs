@@ -1,5 +1,6 @@
 // Write console app to calculate area and perimeter of different 2D shapes
-class Rectangle: IShape2D
+namespace Inheritance;
+class Rectangle : IShape2D
 {
     // Default parameterless constructor
     // public Rectangle()
