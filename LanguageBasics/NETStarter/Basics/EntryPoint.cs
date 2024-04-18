@@ -45,6 +45,8 @@ fileio.CreateFileWithInFolder();
 
 Console.WriteLine("sdfsadf sadfsaf asf");
 
+
+// Student.PrintStudentType();
 // Inheritance/Polymorphism -- OOP
 
 // Generics
