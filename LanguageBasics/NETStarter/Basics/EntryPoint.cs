@@ -22,32 +22,47 @@
 
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using Inheritance;
 
-var rec1 = new Rectangle(5.7, 3.4);
-var p = rec1.GetPerimeter();
+// var rec1 = new Rectangle(5.7, 3.4);
+// var p = rec1.GetPerimeter();
 
-var rec2 = new Rectangle(123.23, 34.3);
-var a = rec2.GetArea();
+// var rec2 = new Rectangle(123.23, 34.3);
+// var a = rec2.GetArea();
 
-var square1 = new Square(34.5);
-var sa = square1.GetArea();
+// var square1 = new Square(34.5);
+// var sa = square1.GetArea();
 
-var circle1 = new Circle(34.5);
-var ca = circle1.GetArea();
+// var circle1 = new Circle(34.5);
+// var ca = circle1.GetArea();
 
-var sphere1 = new Sphere(34.5);
-var ssa = sphere1.GetArea();
-sphere1.PrintSphereInfo(34.5);
+// var sphere1 = new Sphere(34.5);
+// var ssa = sphere1.GetArea();
+// sphere1.PrintSphereInfo(34.5);
 
-var fileio = new FileIO();
-fileio.CreateFileWithInFolder();
+// var fileio = new FileIO();
+// fileio.CreateFileWithInFolder();
 
-Console.WriteLine("sdfsadf sadfsaf asf");
+// Console.WriteLine("sdfsadf sadfsaf asf");
 
 
 // Student.PrintStudentType();
 // Inheritance/Polymorphism -- OOP
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Generics
 // LINQ
