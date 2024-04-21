@@ -52,7 +52,12 @@ using Inheritance;
 // Inheritance/Polymorphism -- OOP
 
 
+ParallelAsync parallelAsync = new();
+parallelAsync.ProcessNumbers();
 
+await parallelAsync.IgniteStove();
+await parallelAsync.PutKeatleyOnWithWater();
+await parallelAsync.GrindMasala();
 
 
 
