@@ -3,14 +3,28 @@ using System;
 class Student
 {
     public static string studentType = "Tech";
-    public string name;
+    // private string name;
+    public string Name { get; set; }
+    // {
+    //     get
+    //     {
+    //         return name;
+    //     }
+
+    //     set
+    //     {
+    //         name = value;
+    //     }
+    // }
+
+
     public string address;
     public int roll;
     public DateTime dob;
 
     public void PrintDetails()
     {
-        Console.WriteLine($"{name} {address} {roll} {dob}");
+        Console.WriteLine($"{Name} {address} {roll} {dob}");
     }
 
     public static void PrintStudentType()

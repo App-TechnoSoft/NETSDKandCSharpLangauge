@@ -1,15 +1,20 @@
-﻿// Top level statements
-// Student bishnu = new();
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Inheritance;
+
+// Top level statements
+Student bishnu = new();
 // Student laxman = new();
 // Student sandip = new();
 // Student rajan = new();
 // Student chahana = new();
 // Student bikendra = new();
 
-// bishnu.name = "Bishnu";
-// bishnu.address = "Ktm";
-// bishnu.roll = 23;
-// bishnu.dob = new DateTime(1990, 12, 12);
+bishnu.Name = "";
+bishnu.address = "Ktm";
+bishnu.roll = 23;
+bishnu.dob = new DateTime(1990, 12, 12);
 
 // bishnu.PrintDetails();
 
@@ -19,12 +24,6 @@
 // In program entry point, create at least two objects of Animal
 // Initialize fields for each instance
 // Print details in concole
-
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Inheritance;
 
 // var rec1 = new Rectangle(5.7, 3.4);
 // var p = rec1.GetPerimeter();
