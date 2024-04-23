@@ -43,7 +43,7 @@ class LINQ
             .Select(y => y * y * y);
 
         // Find students who lives in dang and sort the result by names
-        
+        //var dangNiwasi = students.Where(student => student.)
     }
 
 }

@@ -51,12 +51,42 @@ bishnu.dob = new DateTime(1990, 12, 12);
 // Inheritance/Polymorphism -- OOP
 
 
-ParallelAsync parallelAsync = new();
-parallelAsync.ProcessNumbers();
+// ParallelAsync parallelAsync = new();
+// parallelAsync.ProcessNumbers();
 
-await parallelAsync.IgniteStove();
-await parallelAsync.PutKeatleyOnWithWater();
-await parallelAsync.GrindMasala();
+// await parallelAsync.IgniteStove();
+// await parallelAsync.PutKeatleyOnWithWater();
+// await parallelAsync.GrindMasala();
+
+BasicDbContext Db = new();
+
+var teacher1 = new Teacher
+{
+    Name = "Chahana",
+    Address = "Dang",
+    Gender = 'F',
+    Qualification = "Graduate",
+    Dob = new DateTime(2000, 12, 12)
+};
+
+Db.Teachers.Add(teacher1);
+Db.SaveChanges();
+
+// var teachers = Db.Teachers.ToList();  // select * from teachers
+
+// List all female teachers from dang
+var teachers = Db.Teachers
+    .Where(teacher => teacher.Gender == 'F' && teacher.Address == "Dang")
+    .ToList();
+
+// select Name from teachers where gender='F' and address='Dang'
+
+foreach (var teacher in teachers)
+{
+    Console.WriteLine($"Name: {teacher.Name}, Dob: {teacher.Dob}");
+}
+
+
 
 
 
